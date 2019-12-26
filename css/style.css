@@ -1,0 +1,121 @@
+/*Basic reset*/
+{margin: 0; padding: 0;}
+
+body {
+	overflow: hidden;
+	background-color: black;
+	margin: -15 auto;	
+}
+
+/*---------------Game Plataforma------------*/
+
+#canvas{
+	position: absolute;
+	width:100%;
+   	height: auto;
+}
+
+#canvas_fundo{
+	border: 1px solid black;
+	background:rgb(0, 0, 0, 0);
+	width:99%;
+    height: auto;
+}
+
+#Plataforma{
+	max-width: 800px;
+   	min-width: 300px;
+   	margin: 110px auto;
+   	position: relative;
+}
+
+#start{
+
+	width: 100%;
+	height: auto;
+	border: 1px solid black;
+	cursor: pointer;
+	position: absolute;
+	background: rgb(255, 184, 0);
+	text-align: center;
+	margin: -135px auto;
+
+}
+
+
+#Plataforma h6{
+	color: white;
+	margin: 0 auto;
+	font-size: 17px;
+}
+
+#Plataforma li{ list-style-type: none; }
+
+#Plataforma ul li{
+	background: black;
+	width: 75px;
+	height: 40px;
+	border: 1px solid red;
+	color: white;
+
+	/*"aurea" do obj*/
+	box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.6), 
+				0 0 200px 1px rgba(74, 213, 80, 0.5);
+
+	background: linear-gradient(#46B2D6, #002535);
+}
+
+.text{margin-left: 32px;}
+
+#onLoad{
+	color: rgb(255, 0, 0);
+	font-size: 30px;
+	width: 200px;
+
+	margin-top: 202px;
+	position: absolute;
+	margin-left: 300px;
+}
+
+#Plataforma .responsive  img{
+	width: 100%;
+  	margin: -9px auto;
+	margin-left: -10px;
+}
+
+#gameOver{
+	width: 103%;
+    height: auto;
+	position:absolute;
+	margin-top: 0px;
+	margin-left:0px;
+	
+	padding:10px;
+	cursor: pointer;
+}
+
+#mItem{ background: url( ../imagens/platform/item.png     ) no-repeat; }
+#mLife{ background: url( ../imagens/platform/heart.png    ) no-repeat; }
+#mSpeed{ background: url( ../imagens/platform/speed.png   ) no-repeat; }
+#mPoder{ background: url( ../imagens/platform/semente.png ) no-repeat; }
+
+#menu{
+	position: absolute;
+	text-align: center;
+
+	width: 100%; 
+    height: auto;
+	margin: -102px auto;
+	margin-left: -40px;
+}
+
+#menu .classObj{
+ 
+	width: 32px;
+	height: 32px;
+	/* margin: 0 auto; */
+	margin-top: 4px;
+	/*margin-top: 10px;*/
+	cursor: pointer;
+
+}

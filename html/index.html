@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Game tile html</title>
+        <link rel = 'stylesheet' href = '../css/style.css'     media = 'all'/>
+    </head>
+    <body>
+         <div class="row">
+            <div class="col-sm-12">
+                <div id = 'Plataforma'>
+                    <div id = 'menu'>
+                        <ul>
+                            <li>Menu</li>
+                            <li>
+                                <div id='mItem' data-opcao="1" class='classObj'>
+                                    <div id='tItem' class='text'>0</div>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                        <ul style="margin-left: 74px; margin-top: -100px;">
+                             <li>
+                                <div id='mLife' data-opcao="2" class='classObj' >
+                                    <div id='tLife' class='text'>0</div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div id='mSpeed' data-opcao="4" class='classObj'>
+                                    <div id='tSpeed' class='text'>0</div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul style="margin-left: 150px; margin-top: -100px;">
+                            <li>
+                                <div id='mPoder' data-opcao="3" class='classObj'>
+                                    <div id='tPoder' class='text'>0</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div id='mLife' class='classObj'>
+                                    <div id='life' class='text'>0%</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <canvas id='canvas' width='800' height='485'></canvas>
+                    <div id='gameOver'  width='800' height='485' class="responsive">
+                    <img src="../imagens/platform/gameOver.jpg" alt="img-responsiva">
+                    </div> 
+                    <div id='onLoad'></div> 
+                    <canvas id='canvas_fundo' width='800' height='485'></canvas>                    
+                    <div id='start'>Clique aqui para iniciar o jogo</div>
+                    <h6>Direcionais para mover o personagem, shfit para correr, ctrl para recarregar a energia.</h6>
+                </div>
+            </div>
+        </div>
+
+        <script src= '../js/lib/jquery.js' ></script> 
+        <script src= '../js/game/gameTile.js' ></script>
+
+    </body>
+</html>
