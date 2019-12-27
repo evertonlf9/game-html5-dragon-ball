@@ -10,7 +10,7 @@ Everton Ferreira
   - [Clonando o Repositório](#clonando-o-repositório)
 - [Rodando o projeto](#rodando-o-projeto)
 ## Visão Geral do Projeto
-O principal objetivo é fazer um estudo de cração de games utilizando htm5 canvas e javascript.
+O principal objetivo é fazer um estudo de criação de games utilizando htm5 canvas e javascript.
 
 ### Tecnologias
 - HTML5
